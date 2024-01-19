@@ -1,0 +1,45 @@
+:root {
+  --clr-bg: rgb(194, 230, 244);
+  --clr-button: rgb(243, 116, 116);
+  --font1: "Oswald", sans-serif;
+  --font2: "Public Sans", sans-serif;
+}
+.wrapper {
+  width: 80%;
+  margin-inline: auto;
+  text-align: center;
+  background-color: var(--clr-bg);
+  padding-block: 1rem;
+  border-radius: 1.25rem;
+}
+.header {
+  line-height: 2rem;
+}
+.header h1 {
+  font-family: var(--font1);
+}
+.header h2 {
+  font-family: var(--font2);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+form input {
+  height: 2rem;
+  border: none;
+  margin-inline: 0.4rem;
+  border-radius: 8px;
+  padding-inline: 0.5rem;
+}
+
+.subscribeButton {
+  height: 2rem;
+  margin-block: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--clr-button);
+  color: white;
+  width: -webkit-fill-available;
+  max-width: 17rem;
+  margin-inline: 1rem;
+}
